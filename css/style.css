@@ -1,0 +1,85 @@
+hr {
+  width: 250px;
+  border-top: 3px solid rgb(243, 243, 243);
+  margin: auto;
+}
+section {
+  min-height: 800px;
+}
+.bg-indigo {
+  background-color: #3a0097 !important;
+}
+
+/* Jumbotron */
+.jumbotron img {
+  width: 200px;
+  border: 5px solid #666;
+}
+
+/* Portfolio */
+.portfolio {
+  background-color: #3a0097;
+}
+
+/* footer */
+footer {
+  padding-top: 30px;
+  background-color: #3a0097;
+  height: 120px;
+}
+footer p {
+  font-size: 0.9em;
+  color: white;
+  font-weight: bold;
+}
+
+footer p a {
+  color: #07cdff;
+  transition: 0.5s;
+}
+footer p a span:nth-child(2) {
+  color: #ffda07;
+}
+footer p a span:nth-child(1) {
+  color: #ff0766;
+}
+footer p a:hover {
+  color: #ff0766;
+}
+footer p a:hover span:nth-child(1) {
+  color: #ffda07;
+}
+footer p a:hover span:nth-child(2) {
+  color: #07cdff;
+}
+
+/* Overlay image gallery */
+.overlay-img {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay-thumb span:hover {
+  color: rgb(145, 145, 145);
+  cursor: pointer;
+}
+.overlay-thumb span {
+  color: rgb(236, 236, 236);
+  position: absolute;
+  top: 50px;
+  right: 280px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  transition: 0.5s;
+}
+.overlay-thumb img {
+  transform: scale(1.2);
+}
