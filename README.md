@@ -2,14 +2,18 @@
 Description :
 - The website page is user friendly.
 - Responsive navbar & mobile menu.
+- +Add parallax efect on jumbotron
 - Complete 'about' section view.
   + +Added section about me with attractive design.
   + +Added section my contact with attractive design
   + +Added section educational background with attractive design.
   + +Added section skills with attractive design.
+  + +Added card element.
+  + +Added parallax efect on about.
 - Icon Fontawesome.
 - Simple 'portfolio' section view.
   + +Added simple image gallery.
+  + +Added parallax efect on portfolio.
 - Page scroll animation.
 - Attractive design 'contact' section view.
 - Simple 'footer' view.
